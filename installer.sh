@@ -1,8 +1,5 @@
 #!/bin/bash
-# Datamu
-sudo apt updte
-sudo apt install screen -y
-screen -R hemi
+sudo apt update
 git clone https://github.com/hemilabs/heminetwork.git
 cd heminetwork
 make deps
